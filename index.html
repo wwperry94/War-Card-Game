@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>War</title>
+</head>
+
+<body>
+
+    <h1> What <img src="images\Spades.jpg" alt="Ace of Spades" id="spades"
+            style="height: 200px; width: 125px; padding: 25px;"><br>
+        Is <img src="images\Hearts.jpg" alt="Ace of Hearts" id="hearts"
+            style="height: 200px; width: 125px; padding: 25px;"><br>
+        It <img src="images\Clubs.jpg" alt="Ace of Clubs" id="clubs"
+            style="height: 200px; width: 125px; padding: 25px;"><br>
+        Good <img src="images\Diamonds.jpg" alt="Ace of Diamonds" id="diamonds"
+            style="height: 200px; width: 125px; padding: 25px;"> For?</h1>
+    <div id="main-container">
+        <h1>
+            <form>
+                <input id="player-one-input" type="text" placeholder="Player-One Name">
+                <input type="reset" onclick="location.reload()">
+                <input type="button" id="begin-btn" value="Begin Game!">
+                <input id="player-two-input" type="text" placeholder="Player-Two Name">
+                <br>
+                <input type="button" id="shuffle1-btn" class="buttons" value="Shuffle! P1">
+                <input type="button" id="play-btn" class="buttons" value="Flip Cards!">
+                <input type="button" id="shuffle2-btn" class="buttons" value="Shuffle! P2">
+            </form>
+        </h1>
+        <div>
+            <h2 id="Player-One-Name"></h2>
+            <h3 id="Player-Two-Name"></h3>
+        </div>
+        <div id="war"></div>
+        <div>
+            <div id="player-one-card"></div>
+            <div id="player-two-area"></div>
+        </div>
+        <div id="player-one-deck"></div>
+        <div id="player-two-deck"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

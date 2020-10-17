@@ -1,0 +1,73 @@
+body {
+    background-color: green;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+.buttons {
+    margin-inline-start: 5em;
+}
+h2 {
+    display: flex;
+    justify-content: left;
+    float: left;
+    margin-inline-start: 5em;
+    font-size: 25px;
+}
+h3 {
+    display: flex;
+    justify-content: right;
+    float: right;
+    margin-inline-end: 5em;
+    font-size: 25px;
+}
+#player-one-card {
+    display: flex;
+    float: left;
+    margin-top: 10%;
+    margin-inline-start: 1em;
+}
+#player-two-card {
+    display: flex;
+    float: right;
+    margin-top: 10%;
+    margin-inline-end: 5em;
+}
+#player-one-deck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 10%;
+    margin-inline-start: 5em;
+    font-size: 40px;
+    color: red;
+    background-color: black;
+    height: 65px;
+    width: 45px;
+    /* height: max-content;
+    width: max-content; */
+}
+#player-two-deck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: 10%;
+    margin-inline-end: 3em;
+    font-size: 40px;
+    color: black;
+    background-color: red;
+    height: 65px;
+    width: 45px;
+    /* height: max-content;
+    width: max-content; */
+}
+#war {
+    display: flex;
+    justify-content: center;
+    
+}
