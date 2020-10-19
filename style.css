@@ -69,5 +69,14 @@ h3 {
 #war {
     display: flex;
     justify-content: center;
-    
+}
+#p1-trash {
+    display: flex;
+    float: left;
+    margin-inline-start: -300px;
+}
+#p2-trash {
+    display: flex;
+    float: right;
+    margin-inline-end: -200px;
 }
